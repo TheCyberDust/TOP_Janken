@@ -15,6 +15,7 @@ h2 {
 }
 
 .header-container {
+    width: 100vw;
     background-color: #4A4E41; /* Rifle-Green */
     color: #FE7F2D; /* Pumpkin */
 }
@@ -64,14 +65,17 @@ h2 {
 }
 
 .footer-container {
+    width: 100vw;
     background-color: #4A4E41; /* Rile-Green */
     border-top: 10px solid #904E55; /* Cordovan */  
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer {
     display: flex;
+    flex: nowrap;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
